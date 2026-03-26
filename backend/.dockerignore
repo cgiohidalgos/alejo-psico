@@ -1,2 +1,4 @@
 node_modules
 db
+# Ignorar carpeta snapshot de commit bd169dc
+/tmp/clinical-bd169dc
