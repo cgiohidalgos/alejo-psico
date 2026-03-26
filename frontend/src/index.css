@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
+
+@layer base {
+  :root {
+    --background: 200 20% 97%;
+    --foreground: 200 30% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 30% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 30% 12%;
+
+    --primary: 185 65% 28%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 200 15% 93%;
+    --secondary-foreground: 200 30% 15%;
+
+    --muted: 200 12% 92%;
+    --muted-foreground: 200 10% 45%;
+
+    --accent: 38 90% 55%;
+    --accent-foreground: 38 95% 15%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 15% 88%;
+    --input: 200 15% 88%;
+    --ring: 185 65% 28%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 185 45% 15%;
+    --sidebar-foreground: 185 10% 90%;
+    --sidebar-primary: 38 90% 55%;
+    --sidebar-primary-foreground: 38 95% 15%;
+    --sidebar-accent: 185 40% 22%;
+    --sidebar-accent-foreground: 185 10% 95%;
+    --sidebar-border: 185 35% 25%;
+    --sidebar-ring: 38 90% 55%;
+
+    /* Custom tokens */
+    --success: 152 60% 40%;
+    --success-foreground: 0 0% 98%;
+    --chat-student: 185 65% 28%;
+    --chat-student-foreground: 0 0% 98%;
+    --chat-patient: 200 12% 92%;
+    --chat-patient-foreground: 200 30% 12%;
+    --score-high: 152 60% 40%;
+    --score-mid: 38 90% 55%;
+    --score-low: 0 72% 51%;
+  }
+
+  .dark {
+    --background: 200 25% 8%;
+    --foreground: 200 10% 92%;
+
+    --card: 200 20% 12%;
+    --card-foreground: 200 10% 92%;
+
+    --popover: 200 20% 12%;
+    --popover-foreground: 200 10% 92%;
+
+    --primary: 185 55% 45%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 200 20% 18%;
+    --secondary-foreground: 200 10% 85%;
+
+    --muted: 200 15% 18%;
+    --muted-foreground: 200 10% 55%;
+
+    --accent: 38 85% 55%;
+    --accent-foreground: 38 95% 10%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 15% 20%;
+    --input: 200 15% 20%;
+    --ring: 185 55% 45%;
+
+    --sidebar-background: 200 25% 6%;
+    --sidebar-foreground: 200 10% 85%;
+    --sidebar-primary: 38 85% 55%;
+    --sidebar-primary-foreground: 38 95% 10%;
+    --sidebar-accent: 200 20% 14%;
+    --sidebar-accent-foreground: 200 10% 90%;
+    --sidebar-border: 200 15% 15%;
+    --sidebar-ring: 38 85% 55%;
+
+    --success: 152 55% 45%;
+    --success-foreground: 0 0% 98%;
+    --chat-student: 185 55% 45%;
+    --chat-student-foreground: 0 0% 98%;
+    --chat-patient: 200 15% 18%;
+    --chat-patient-foreground: 200 10% 90%;
+    --score-high: 152 55% 45%;
+    --score-mid: 38 85% 55%;
+    --score-low: 0 62% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+}
