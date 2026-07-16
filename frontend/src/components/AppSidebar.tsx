@@ -1,9 +1,9 @@
 import { useAppStore } from "@/stores/useAppStore";
 import { useLocation, useNavigate } from "react-router-dom";
-import { ClipboardList, MessageSquare, FileText, BarChart3, Users, Brain, Shield, GraduationCap, LogOut } from "lucide-react";
+import { ClipboardList, MessageSquare, FileText, BarChart3, Users, Brain, Shield, GraduationCap, LogOut, LogIn } from "lucide-react";
 
 const studentSteps = [
-  { num: 1, label: "Registro", icon: Users, path: "/" },
+  { num: 1, label: "Inicio", icon: Users, path: "/" },
   { num: 2, label: "Casos", icon: ClipboardList, path: "/casos" },
   { num: 3, label: "Entrevista", icon: MessageSquare, path: "/entrevista" },
   { num: 4, label: "Historia", icon: FileText, path: "/historia" },
@@ -24,7 +24,11 @@ export function AppSidebar() {
   const renderUserInfo = () => {
     if (!user) {
       return (
-        <button onClick={() => navigate("/auth")} className="text-sm text-primary underline">
+        <button
+          onClick={() => navigate("/auth")}
+          className="w-full flex items-center justify-center gap-2 bg-sidebar-primary text-sidebar-primary-foreground font-medium text-sm py-2.5 rounded-lg hover:opacity-90 transition-opacity"
+        >
+          <LogIn className="w-4 h-4" />
           Iniciar sesión
         </button>
       );
@@ -59,7 +63,7 @@ export function AppSidebar() {
             <Brain className="w-5 h-5 text-sidebar-primary-foreground" />
           </div>
           <div>
-            <h1 className="font-serif text-lg font-bold text-sidebar-foreground">SSPEC</h1>
+            <h1 className="font-serif text-lg font-bold text-sidebar-foreground">Psiké</h1>
             <p className="text-xs text-sidebar-foreground/60">Simulación Clínica</p>
           </div>
         </div>
@@ -67,13 +71,17 @@ export function AppSidebar() {
 
       {isAuthPage ? (
         <div className="p-6">
-          <h2 className="text-sm font-semibold mb-2">¿Qué es SSPEC?</h2>
+          <h2 className="text-sm font-semibold mb-2">¿Qué es Psiké?</h2>
           <p className="text-xs text-sidebar-foreground/70">
-            Plataforma de práctica de entrevista clínica con paciente simulado por IA.
-            Inicia sesión o regístrate y sigue los pasos: elegir caso, entrevista, historia clínica y evaluación.
+            Un espacio para practicar entrevistas clínicas con pacientes simulados por inteligencia artificial,
+            en un entorno seguro y realista.
           </p>
           <p className="text-xs text-sidebar-foreground/70 mt-3">
-            Al autenticarte, tus sesiones se guardan en SQLite y puedes revisar tus evaluaciones.
+            Sigue los pasos: elige un caso, realiza la entrevista, redacta la historia clínica y recibe una
+            evaluación con retroalimentación de tu desempeño.
+          </p>
+          <p className="text-xs text-sidebar-foreground/70 mt-3">
+            Regístrate para guardar tus sesiones y seguir tu progreso, o pruébalo como invitado sin crear cuenta.
           </p>
         </div>
       ) : (

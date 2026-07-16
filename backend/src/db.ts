@@ -85,12 +85,24 @@ async function initDb() {
         key TEXT PRIMARY KEY,
         value TEXT NOT NULL
       );
+
+      CREATE TABLE IF NOT EXISTS orientation_quotas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        student_id INTEGER NOT NULL,
+        orientacion TEXT NOT NULL,
+        max_count INTEGER NOT NULL DEFAULT 0,
+        UNIQUE(student_id, orientacion),
+        FOREIGN KEY (student_id) REFERENCES users(id)
+      );
     `);
 
     // Migraciones
     const userCols = await db.all(`PRAGMA table_info(users)`);
     if (!userCols.find((c: any) => c.name === 'role')) {
       await db.exec(`ALTER TABLE users ADD COLUMN role TEXT NOT NULL DEFAULT 'student'`);
+    }
+    if (!userCols.find((c: any) => c.name === 'teacher_id')) {
+      await db.exec(`ALTER TABLE users ADD COLUMN teacher_id INTEGER`);
     }
 
     const caseCols = await db.all(`PRAGMA table_info(clinical_cases)`);
@@ -291,17 +303,20 @@ async function seedCases() {
     },
   ];
 
+  // Casos públicos por defecto (visibles en el demo). El resto quedan ocultos.
+  const PUBLIC_SLUGS = new Set(['maria-gonzalez', 'carlos-rodriguez', 'lucia-herrera']);
+
   let inserted = 0;
   for (const c of cases) {
     const existing = await db.get(`SELECT id FROM clinical_cases WHERE slug = ?`, c.slug);
     if (existing) continue;
     await db.run(
       `INSERT INTO clinical_cases (slug, nombre, edad, genero, motivo, tipo, categoria, dificultad, tags_json, objetivos_json, presentacion, contexto, personalidad, antecedentes_medicos, dinamica_familiar, notas_docente, is_public, created_at, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?)`,
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       c.slug, c.nombre, c.edad, c.genero, c.motivo, c.tipo, c.categoria, c.dificultad,
       JSON.stringify(c.tags), JSON.stringify(c.objetivos),
       c.presentacion, c.contexto, c.personalidad, c.antecedentes_medicos,
-      c.dinamica_familiar, c.notas_docente, now, now
+      c.dinamica_familiar, c.notas_docente, PUBLIC_SLUGS.has(c.slug) ? 1 : 0, now, now
     );
     inserted++;
   }
@@ -365,15 +380,109 @@ export const listSessionsByUser = async (userId: number) => {
   return rows.map(parseSession);
 };
 
+export const deleteSession = async (id: number) => {
+  await initDb();
+  await db.run(`DELETE FROM sessions WHERE id = ?`, id);
+};
+
 // ==================== USERS ====================
 
-export const createUser = async (user: {name: string; email: string; password_hash: string; role?: Role}) => {
+export const createUser = async (user: {name: string; email: string; password_hash: string; role?: Role; teacher_id?: number | null}) => {
   await initDb();
   const result = await db.run(
-    `INSERT INTO users (name, email, password_hash, role, created_at) VALUES (?, ?, ?, ?, ?)`,
-    user.name, user.email, user.password_hash, user.role || 'student', new Date().toISOString()
+    `INSERT INTO users (name, email, password_hash, role, teacher_id, created_at) VALUES (?, ?, ?, ?, ?, ?)`,
+    user.name, user.email, user.password_hash, user.role || 'student', user.teacher_id ?? null, new Date().toISOString()
   );
   return result.lastID;
+};
+
+export const listTeachers = async () => {
+  await initDb();
+  return db.all(`SELECT id, name FROM users WHERE role = 'teacher' ORDER BY name`);
+};
+
+// ==================== CUPOS DE ORIENTACIÓN ====================
+
+// Cupos asignados a un estudiante, con el nº de entrevistas ya usadas (sesiones guardadas)
+export const listQuotasByStudent = async (studentId: number) => {
+  await initDb();
+  return db.all(`
+    SELECT q.orientacion, q.max_count,
+      (SELECT COUNT(*) FROM sessions s WHERE s.user_id = q.student_id AND s.orientacion = q.orientacion) AS used
+    FROM orientation_quotas q
+    WHERE q.student_id = ?
+    ORDER BY q.orientacion
+  `, studentId);
+};
+
+// Inserta o actualiza el cupo de una orientación para un estudiante (sin tocar las demás)
+export const upsertQuota = async (studentId: number, orientacion: string, max_count: number) => {
+  await initDb();
+  if (!orientacion || max_count <= 0) return;
+  await db.run(
+    `INSERT INTO orientation_quotas (student_id, orientacion, max_count) VALUES (?, ?, ?)
+     ON CONFLICT(student_id, orientacion) DO UPDATE SET max_count = excluded.max_count`,
+    studentId, orientacion, max_count
+  );
+};
+
+// Reemplaza todos los cupos de un estudiante por los dados
+export const setQuotas = async (studentId: number, quotas: { orientacion: string; max_count: number }[]) => {
+  await initDb();
+  await db.run(`DELETE FROM orientation_quotas WHERE student_id = ?`, studentId);
+  for (const q of quotas) {
+    if (!q.orientacion || q.max_count <= 0) continue;
+    await db.run(
+      `INSERT INTO orientation_quotas (student_id, orientacion, max_count) VALUES (?, ?, ?)`,
+      studentId, q.orientacion, q.max_count
+    );
+  }
+};
+
+// Nº de sesiones guardadas por un estudiante para una orientación
+export const countSessionsByStudentOrientacion = async (studentId: number, orientacion: string) => {
+  await initDb();
+  const row = await db.get(
+    `SELECT COUNT(*) AS n FROM sessions WHERE user_id = ? AND orientacion = ?`,
+    studentId, orientacion
+  );
+  return row?.n ?? 0;
+};
+
+// Métricas agregadas de un estudiante a partir de sus sesiones
+export const getStudentMetrics = async (studentId: number) => {
+  await initDb();
+  const rows = await db.all(
+    `SELECT evaluacion_json, created_at FROM sessions WHERE user_id = ? ORDER BY created_at DESC`,
+    studentId
+  );
+  const dims = ['estructura_preguntas', 'tecnica_entrevista', 'apertura_emocional', 'adecuacion_contexto'] as const;
+  const dimSums: Record<string, { sum: number; n: number }> = {};
+  dims.forEach((d) => (dimSums[d] = { sum: 0, n: 0 }));
+  const perSessionAvgs: number[] = [];
+
+  for (const r of rows) {
+    if (!r.evaluacion_json) continue;
+    let ev: any;
+    try { ev = JSON.parse(r.evaluacion_json); } catch { continue; }
+    const scores: number[] = [];
+    for (const d of dims) {
+      const p = ev?.[d]?.puntuacion;
+      if (typeof p === 'number') { dimSums[d].sum += p; dimSums[d].n += 1; scores.push(p); }
+    }
+    if (scores.length) perSessionAvgs.push(scores.reduce((a, b) => a + b, 0) / scores.length);
+  }
+
+  const avg = perSessionAvgs.length
+    ? Number((perSessionAvgs.reduce((a, b) => a + b, 0) / perSessionAvgs.length).toFixed(1))
+    : null;
+  const best = perSessionAvgs.length ? Number(Math.max(...perSessionAvgs).toFixed(1)) : null;
+  const dimAverages = dims.map((d) => ({
+    dimension: d,
+    promedio: dimSums[d].n ? Number((dimSums[d].sum / dimSums[d].n).toFixed(1)) : null,
+  }));
+
+  return { total_sessions: rows.length, avg_score: avg, best_score: best, dimensions: dimAverages };
 };
 
 export const getUserByEmail = async (email: string) => {
@@ -388,7 +497,12 @@ export const getUserById = async (id: number) => {
 
 export const listUsers = async () => {
   await initDb();
-  return db.all(`SELECT id, name, email, role, created_at FROM users ORDER BY created_at DESC`);
+  return db.all(`
+    SELECT u.id, u.name, u.email, u.role, u.teacher_id, t.name AS teacher_name, u.created_at
+    FROM users u
+    LEFT JOIN users t ON t.id = u.teacher_id
+    ORDER BY u.created_at DESC
+  `);
 };
 
 export const updateUserRole = async (id: number, role: Role) => {
@@ -402,13 +516,15 @@ export const deleteUser = async (id: number) => {
   await db.run(`DELETE FROM users WHERE id = ?`, id);
 };
 
-export const updateUser = async (id: number, data: { name?: string; email?: string; role?: Role }) => {
+export const updateUser = async (id: number, data: { name?: string; email?: string; role?: Role; password_hash?: string; teacher_id?: number | null }) => {
   await initDb();
   const sets: string[] = [];
   const vals: any[] = [];
   if (data.name) { sets.push('name = ?'); vals.push(data.name); }
   if (data.email) { sets.push('email = ?'); vals.push(data.email); }
   if (data.role) { sets.push('role = ?'); vals.push(data.role); }
+  if (data.password_hash) { sets.push('password_hash = ?'); vals.push(data.password_hash); }
+  if (data.teacher_id !== undefined) { sets.push('teacher_id = ?'); vals.push(data.teacher_id); }
   if (sets.length === 0) return;
   vals.push(id);
   await db.run(`UPDATE users SET ${sets.join(', ')} WHERE id = ?`, ...vals);

@@ -1,0 +1,2107 @@
+{
+ "model": "claude-sonnet-4-6",
+ "n_turns": 5,
+ "results": [
+  {
+   "idx": 0,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de hilo conductor; los temas cambian sin exploración profunda."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Desde orientación psicoanalítica, no hubo trabajo con resistencias, transferencia ni material inconsciente evidente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "El paciente mostró apertura espontánea, pero el estudiante no sostuvo ni profundizó esos momentos."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "No se exploró el desplazamiento forzado ni su impacto identitario y cultural significativo."
+    },
+    "fortalezas": [
+     "Mantuvo un tono amable y no juzgó explícitamente el consumo de alcohol del paciente.",
+     "Permitió que el paciente hablara con cierta libertad sin interrupciones excesivas.",
+     "Abordó el tema familiar al preguntar por hijos, lo que abrió material emocional relevante."
+    ],
+    "areas_mejora": [
+     "Debe aprender a sostener y explorar los momentos de quiebre emocional del paciente, como cuando 'se le escapó algo' al hablar del desplazamiento.",
+     "Desde la orientación psicoanalítica, necesita trabajar las resistencias evidentes: el paciente minimiza repetidamente el impacto del desplazamiento forzado.",
+     "Debe evitar intervenciones psicoeducativas prematuras como corregir el mito del trago para dormir, ya que interrumpen el vínculo y el material emergente."
+    ]
+   }
+  },
+  {
+   "idx": 1,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista avanza sin hilo conductor claro; las transiciones son abruptas y sin propósito."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 2,
+     "comentario": "Desde orientación psicoanalítica, falta escucha flotante, interpretación y exploración del inconsciente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 3,
+     "comentario": "El consejo directivo ('deberías intentarlo más') rompe la alianza y cierra el espacio seguro."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No se explora el contexto universitario, familiar ni la dinámica cultural de la consulta forzada."
+    },
+    "fortalezas": [
+     "Recoge información básica relevante como la figura de la madre, la amiga Laura y la experiencia universitaria.",
+     "Mantiene un tono conversacional que inicialmente reduce la formalidad excesiva para una paciente reticente.",
+     "Identifica áreas clave de exploración como vínculos familiares y sociales, aunque sin profundizar adecuadamente."
+    ],
+    "areas_mejora": [
+     "Evitar intervenciones directivas ('deberías intentarlo más') que contradicen la neutralidad psicoanalítica y dañan la alianza terapéutica.",
+     "Trabajar la pregunta sobre el padre con mayor delicadeza: la pausa larga y el tono seco indicaban material significativo que requería contención, no continuación mecánica.",
+     "Incorporar técnicas psicoanalíticas básicas como la escucha activa flotante, el señalamiento de resistencias y la atención a lapsus, silencios y cambios de tema como el reencuadre brusco de la paciente."
+    ]
+   }
+  },
+  {
+   "idx": 2,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "La entrevista pierde hilo conductor; salta de síntomas a hobbies sin profundidad clínica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Orientación psicoanalítica ausente; el estudiante dio consejo directivo, técnica contraproducente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "El consejo prematuro cerró el espacio emocional que la paciente intentaba abrir."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 5,
+     "comentario": "No exploró el significado cultural del trabajo ni la identidad ligada al rol directivo."
+    },
+    "fortalezas": [
+     "Reconoció la frustración de la paciente con una breve validación empática inicial.",
+     "Identificó correctamente la jubilación como posible evento desencadenante relevante.",
+     "Permitió que la paciente expresara su narrativa con pausas y sin interrupciones frecuentes."
+    ],
+    "areas_mejora": [
+     "Evitar dar recomendaciones conductuales; desde orientación psicoanalítica debe explorar el significado inconsciente de la pérdida del rol.",
+     "Profundizar en la interrupción significativa de la paciente ('ese colegio era...'), que señala material clínico central no elaborado.",
+     "No asumir datos ('esto empezó cuando se jubiló, verdad'); las preguntas sugestivas contaminan el relato espontáneo del paciente."
+    ]
+   }
+  },
+  {
+   "idx": 3,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "Saltó a datos demográficos sin explorar el motivo de consulta suficientemente."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Desde orientación psicoanalítica, faltó escucha flotante, asociación libre y exploración del inconsciente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "Interpretó prematuramente, generando resistencia; la paciente se cerró y tensó visiblemente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No consideró el contexto de mujer mayor, viuda, sola, con pérdida de rol identitario significativo."
+    },
+    "fortalezas": [
+     "Validó inicialmente la confusión de la paciente sobre síntomas físicos versus emocionales, generando algo de empatía.",
+     "Identificó un elemento clínicamente relevante: la relación entre jubilación y aparición de síntomas.",
+     "Reconoció su error y se disculpó cuando la paciente resistió la interpretación precipitada."
+    ],
+    "areas_mejora": [
+     "Evitar interpretaciones prematuras sin suficiente material clínico; en psicoanálisis, primero se escucha y se sostiene.",
+     "Explorar contenido emocional latente: la vecina, los papeles del colegio y la 'vergüenza' son material clínico rico ignorado.",
+     "No interrumpir el discurso espontáneo con preguntas cerradas demográficas; privilegiar la asociación libre del paciente."
+    ]
+   }
+  },
+  {
+   "idx": 4,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "Las preguntas saltan entre temas sin hilo conductor claro ni progresión lógica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Ausencia de técnicas psicoanalíticas: no explora resistencias, transferencia ni asociación libre."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "La paciente cierra emocionalmente; el estudiante no interviene para sostener el espacio."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Identifica jubilación y soledad, pero no profundiza en el contexto sociocultural de la paciente."
+    },
+    "fortalezas": [
+     "Logró obtener información relevante sobre la historia vital: jubilación, viudez e hijos distantes.",
+     "Mantuvo un tono respetuoso y no invasivo durante toda la entrevista.",
+     "Intuyó correctamente la posible conexión entre la jubilación y los síntomas somáticos."
+    ],
+    "areas_mejora": [
+     "Debe trabajar la escucha activa ante defensas como 'eso ya pasó'; son material clínico central en el enfoque psicoanalítico.",
+     "Evitar preguntas cerradas y anamnésicas consecutivas; usar intervenciones que inviten a la asociación libre.",
+     "Ante la pregunta directa '¿Por qué me pregunta eso?', es necesario sostener el vínculo y no evadir; fue un momento clave no aprovechado."
+    ]
+   }
+  },
+  {
+   "idx": 5,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 3,
+     "comentario": "Preguntas dispersas sin hilo conductor; saltan de amigos a edad sin lógica clínica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 2,
+     "comentario": "Sin rastreo de contenido latente ni interpretaciones; orientación psicoanalítica completamente ausente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "Paciente muestra señales no verbales importantes que el estudiante ignora completamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "No explora contexto familiar monoparental ni dinámica madre-hija con profundidad adecuada."
+    },
+    "fortalezas": [
+     "Mantuvo un tono conversacional no amenazante que permitió que la paciente siguiera respondiendo",
+     "Preguntó por la relación con la madre, tocando un tema relevante aunque sin profundizarlo",
+     "Usó validaciones breves como 'claro, claro' que evitaron confrontaciones prematuras con la paciente"
+    ],
+    "areas_mejora": [
+     "Debe rastrear el contenido latente: la ambivalencia sobre derecho y la risa incómoda al hablar de relaciones son señales clave ignoradas",
+     "Necesita responder a señales no verbales como tensión corporal y desvío de mirada antes de cambiar de tema abruptamente",
+     "Debe establecer un motivo de consulta claro antes de explorar áreas específicas; la entrevista carece de estructura psicoanalítica inicial"
+    ]
+   }
+  },
+  {
+   "idx": 6,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica del motivo de consulta hacia contenido emocional más profundo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Usa señalamiento y confrontación suave; faltan interpretaciones propias del enfoque psicoanalítico."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logra que la paciente profundice gradualmente en material emocional resistido inicialmente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No explora contexto universitario, familiar ni cultural que enmarca los síntomas presentados."
+    },
+    "fortalezas": [
+     "Excelente uso del señalamiento no verbal: notó la minimización y la tensión corporal de la paciente con precisión.",
+     "Creó un vínculo empático sólido en primera sesión, logrando que la paciente revelara su aislamiento social.",
+     "Intervención sobre 'quedo mejor sola' fue clínicamente precisa al intuir la tristeza subyacente a la defensa."
+    ],
+    "areas_mejora": [
+     "Desde orientación psicoanalítica, faltó explorar historia vincular temprana que pudiera explicar el miedo al juicio ajeno.",
+     "No se indagó la relación con la madre, figura central dado que fue quien motivó la consulta.",
+     "Ausencia de exploración del significado inconsciente de 'no decir' cosas, material clínicamente relevante mencionado por la paciente."
+    ]
+   }
+  },
+  {
+   "idx": 7,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "Saltó abruptamente entre temas sin hilo conductor claro ni progresión lógica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Desde orientación psicoanalítica faltó explorar mecanismos de defensa y contenido latente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 7,
+     "comentario": "Validó la experiencia somática inicial, generando confianza básica en la paciente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Reconoció la jubilación como evento vital, pero no exploró su significado cultural profundo."
+    },
+    "fortalezas": [
+     "Validó rápidamente la experiencia somática de la paciente, evitando que se sintiera invalidada.",
+     "Identificó la jubilación como posible evento desencadenante y lo introdujo en la conversación.",
+     "Mantuvo una actitud empática y no confrontacional ante las defensas evidentes de la paciente."
+    ],
+    "areas_mejora": [
+     "Debe explorar los mecanismos de defensa identificables como la negación ('yo no soy de las que se deprimen') en lugar de pasarlos por alto.",
+     "Necesita profundizar en el contenido latente del insomnio y los pensamientos nocturnos, material clínico psicoanalíticamente muy relevante.",
+     "Debe establecer una estructura de entrevista más coherente, evitando saltar del duelo al sueño sin transiciones que inviten a mayor elaboración."
+    ]
+   }
+  },
+  {
+   "idx": 8,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y coherente desde síntoma físico hacia conflicto identitario profundo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso excelente de señalamiento, amplificación metafórica y devolución de material inconsciente emergente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente accedió a material emocional profundo y vulnerable; espacio claramente seguro."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Se considera rol laboral y jubilación, pero falta explorar contexto familiar y cultural colombiano."
+    },
+    "fortalezas": [
+     "Habilidad destacada para retomar metáforas del paciente ('aparatos', 'silencio') como herramienta interpretativa psicoanalítica.",
+     "La pregunta '¿quién es usted cuando no hay nada que resolver?' demuestra profundidad clínica y timing preciso.",
+     "Validación sin sobreexplicar permitió que la paciente llegara sola a la distinción 'ser' versus 'hacer'."
+    ],
+    "areas_mejora": [
+     "Explorar antecedentes familiares y relacionales tempranos que refuercen la hipótesis identitaria desde marco psicoanalítico.",
+     "Incorporar preguntas sobre red de apoyo actual; la mención de hijos quedó sin explorar clínicamente.",
+     "Hacia el cierre, formular una devolución tentativa que contenga la angustia activada sin dejarla suspendida."
+    ]
+   }
+  },
+  {
+   "idx": 9,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de estructura lógica; las preguntas saltan sin hilo conductor claro."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "No se aplican técnicas psicoanalíticas como asociación libre, señalamientos ni exploración de lo latente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "El estudiante no validó emociones ni acogió las pausas significativas del paciente con calidez."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No se exploró el desplazamiento forzado ni el contexto sociocultural de Samaniego con profundidad."
+    },
+    "fortalezas": [
+     "Preguntó por el origen geográfico del paciente, abriendo una puerta al contexto migratorio.",
+     "Indagó sobre el consumo de alcohol, identificando un dato clínicamente relevante.",
+     "Exploró brevemente el núcleo familiar, lo que permitió al paciente mencionar a Rosa y Valentina."
+    ],
+    "areas_mejora": [
+     "Debe usar señalamientos psicoanalíticos ante pausas y lapsus: 'Desde que nos tocó venirnos' contiene material latente no explorado.",
+     "Evitar psicoeducación directiva ('el alcohol no es bueno') que cierra el espacio asociativo; mejor usar preguntas abiertas reflectivas.",
+     "Al final el paciente dijo 'yo estoy bien, yo tengo que estar bien': el estudiante debe señalar esa formación reactiva defensiva en lugar de ignorarla."
+    ]
+   }
+  },
+  {
+   "idx": 10,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y coherente, desde síntoma hasta conflicto subyacente identificado."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso sobresaliente de señalamiento, atención a lapsus y resistencias, acorde al enfoque psicoanalítico."
+    },
+    "apertura_emocional": {
+     "puntuacion": 8,
+     "comentario": "Logró que la paciente accediera a material emocional profundo pese a resistencias iniciales notables."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró el rol laboral y la jubilación, pero no exploró dimensión sociocultural de la 'fortaleza' femenina."
+    },
+    "fortalezas": [
+     "Excelente señalamiento del lapsus: retomar 'no podía simplemente...' fue una intervención técnicamente precisa y productiva.",
+     "Uso efectivo de la propia palabra del paciente como espejo: 'que el día no me necesita' amplificó el acceso emocional.",
+     "Mantuvo el hilo psicodinámico sin imponer interpretaciones prematuras, respetando el ritmo de la paciente."
+    ],
+    "areas_mejora": [
+     "No exploró la defensa de 'no soy de las que lloran': ese material es clínicamente relevante dentro del marco psicoanalítico.",
+     "Ante la demanda de técnicas de respiración, cedió sin analizar qué función cumple esa resistencia en la estructura defensiva.",
+     "No indagó la relación con los hijos ni el vínculo telefónico interrumpido, que podrían revelar dinámicas de dependencia o duelo relacional."
+    ]
+   }
+  },
+  {
+   "idx": 11,
+   "orient": "Psicoanalítica",
+   "nivel": "avanzado",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y coherente: síntoma, historia, presente, mundo interno."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Usa señalamientos psicoanalíticos sutiles; buena escucha de lo no dicho."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente llega a material inconsciente; espacio claramente seguro y sostenedor."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Considera jubilación, rol social y género; podría explorar más red de apoyo."
+    },
+    "fortalezas": [
+     "Excelente uso del señalamiento: retoma las palabras exactas de la paciente para abrir el material inconsciente sin confrontar.",
+     "Tolerancia al silencio y a lo incompleto: invita a terminar la frase sin presionar, respetando el ritmo defensivo.",
+     "La intervención sobre 'revisar' trasciende lo literal y conecta síntoma con necesidad de control, coherente con la orientación psicoanalítica."
+    ],
+    "areas_mejora": [
+     "No exploró la dimensión somática desde el marco teórico: los síntomas físicos (brazo dormido, presión en el pecho) merecen lectura como conversión o somatización, no solo como contexto.",
+     "La paciente minimizó dos veces ('no soy dramática', 'me lo gané el descanso') y el estudiante no señaló esa defensa de forma explícita ni la trabajó.",
+     "Faltó indagar vínculos significativos actuales: familia, pareja, hijos; el aislamiento relacional es central en el caso y quedó sin explorar."
+    ]
+   }
+  },
+  {
+   "idx": 12,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara, de motivo de consulta hacia material más profundo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Usa confrontación suave y señalamiento, coherente con enfoque psicoanalítico."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró que la paciente se autobservara y reconociera defensas propias rápidamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró explícitamente el contexto familiar o cultural colombiano presente."
+    },
+    "fortalezas": [
+     "Excelente señalamiento de la defensa de minimización ('bobada'), sin confrontar agresivamente.",
+     "Generó autobservación genuina: la paciente identificó su risa defensiva por sí sola.",
+     "Validación empática constante que facilitó apertura progresiva en primera sesión."
+    ],
+    "areas_mejora": [
+     "Explorar el vínculo madre-hija más sistemáticamente, dado su peso transferencial evidente.",
+     "Preguntar por el contexto sociocultural: edad, colegio, entorno para contextualizar el aislamiento.",
+     "Incluir preguntas sobre historia temprana o dinámicas familiares acordes al marco psicoanalítico."
+    ]
+   }
+  },
+  {
+   "idx": 13,
+   "orient": "Psicoanalítica",
+   "nivel": "avanzado",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: de motivo de consulta a material profundo gradualmente."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Buen uso de señalamiento y confrontación suave, coherentes con enfoque psicoanalítico."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente comenzó cerrada y progresivamente reveló material vulnerable y doloroso."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Reconoció activamente el acento y la experiencia migratoria como factores relevantes."
+    },
+    "fortalezas": [
+     "Excelente uso del señalamiento cuando detectó la resistencia de traer a la madre repetidamente a la conversación.",
+     "Sostuvo bien los silencios y el ritmo de la paciente sin forzar respuestas prematuras.",
+     "Identificó y exploró el contexto sociocultural del acento y la migración interna de forma empática."
+    ],
+    "areas_mejora": [
+     "No exploró el síntoma del insomnio con mayor profundidad; quedó mencionado sin seguimiento clínico.",
+     "Podría haber trabajado más la ambivalencia inicial hacia el proceso terapéutico antes de avanzar al material doloroso.",
+     "Faltó indagar la temporalidad y el impacto funcional actual del bullying pasado para evaluar su peso clínico presente."
+    ]
+   }
+  },
+  {
+   "idx": 14,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "La entrevista progresó lógicamente del síntoma hacia contenido más profundo y significativo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso de señalamiento, atención a resistencias y trabajo con el material inconsciente emergente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 8,
+     "comentario": "El paciente reveló contenido muy sensible sobre desplazamiento, indicando confianza construida."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No se exploró explícitamente el contexto de desplazamiento forzado ni su impacto cultural."
+    },
+    "fortalezas": [
+     "Señalamientos precisos y oportunos: identificó la resistencia cuando el paciente cambió de tema abruptamente al hablar del padre.",
+     "Manejo técnico psicoanalítico sólido: trabajó la transferencia, los mecanismos de defensa y el contenido latente con habilidad notable.",
+     "Sostuvo el silencio y la incomodidad sin rescatar al paciente, permitiendo que emergiera material clínicamente relevante sobre el desplazamiento."
+    ],
+    "areas_mejora": [
+     "Al conocer el contexto de Samaniego y el desplazamiento forzado, debió pausar la exploración inconsciente para evaluar riesgo psicosocial y trauma complejo de forma explícita.",
+     "La pregunta sobre el padre ('¿cómo era su papá con usted?') fue demasiado directa y temprana; en enfoque psicoanalítico conviene dejar que el paciente conduzca la asociación.",
+     "No se abordó el cuestionamiento sobre la edad del estudiante ('usted es muy joven'); era una oportunidad para trabajar la transferencia y reforzar el encuadre terapéutico."
+    ]
+   }
+  },
+  {
+   "idx": 15,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista salta entre temas sin hilo conductor claro ni progresión lógica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "No se evidencian técnicas psicoanalíticas como asociación libre o exploración del inconsciente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "Hubo momentos empáticos, pero se evitaron señales emocionales importantes del paciente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No se exploró el desplazamiento forzado de Samaniego ni su impacto sociocultural."
+    },
+    "fortalezas": [
+     "El estudiante mantuvo un tono cordial y no confrontativo durante toda la entrevista.",
+     "Identificó correctamente señales físicas de tensión del paciente como cruzar los brazos.",
+     "Realizó una validación empática breve al reconocer la dificultad de salir de su tierra."
+    ],
+    "areas_mejora": [
+     "Debió profundizar en el desplazamiento forzado desde Samaniego, señal clara de trauma potencial.",
+     "Inició la entrevista con una pregunta cerrada y directiva, perdiendo datos esenciales de apertura.",
+     "No exploró el consumo de aguardiente los fines de semana como posible mecanismo de evitación."
+    ]
+   }
+  },
+  {
+   "idx": 16,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: síntomas, cronología, cotidianidad y mundo interno."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 6,
+     "comentario": "Buena escucha activa, pero falta exploración de mecanismos defensivos y transferencia."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró que la paciente accediera a contenidos evitados con calidez y precisión."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró jubilación y soledad, pero no exploró dimensión cultural del 'no quejarse'."
+    },
+    "fortalezas": [
+     "Uso excelente del silencio y la interrupción: rescató el 'no, nada' con fineza clínica notable.",
+     "La devolución sobre 'despertar buscando si alguien la necesita' conectó síntoma con identidad profesional.",
+     "Mantuvo un ritmo empático sin apresurarse, permitiendo que la paciente se desplegara gradualmente."
+    ],
+    "areas_mejora": [
+     "Desde orientación psicoanalítica, debió señalar la formación reactiva: 'yo misma la pedí' como posible defensa.",
+     "No exploró la figura de Diego ni de Camila como objetos vinculares significativos con valor transferencial.",
+     "Ausencia de hipótesis sobre somatización: el síntoma cardíaco como expresión del 'corazón partido' merece elaboración."
+    ]
+   }
+  },
+  {
+   "idx": 17,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "Saltos abruptos sin hilo lógico; pasó de hermanos a padres sin transición clara."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Desde orientación psicoanalítica faltó explorar mecanismos de defensa, transferencia y mundo interno."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "Validó minimización del paciente diciendo 'es normal', reforzando resistencias defensivas."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 5,
+     "comentario": "No exploró contexto laboral, cultural ni dinámicas de género presentes en el discurso."
+    },
+    "fortalezas": [
+     "Intentó explorar historia familiar de origen, relevante para comprensión psicoanalítica del vínculo.",
+     "Retomó el término 'descontrolarse' usado por el paciente para profundizar en el episodio concreto.",
+     "Mantuvo una actitud no confrontacional que permitió al paciente hablar con relativa apertura inicial."
+    ],
+    "areas_mejora": [
+     "Evitar validar frases como 'es normal' ante dinámicas que podrían indicar violencia; esto refuerza la minimización.",
+     "Profundizar en el mundo interno: ¿qué siente el paciente cuando 'se descontrola'? Faltó exploración afectiva.",
+     "Construir una estructura narrativa coherente: la entrevista saltó entre temas sin establecer motivo de consulta real."
+    ]
+   }
+  },
+  {
+   "idx": 18,
+   "orient": "Psicoanalítica",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de hilo conductor; los saltos temáticos interrumpen la exploración clínica."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 2,
+     "comentario": "Ninguna técnica psicoanalítica visible: sin asociación libre, transferencia ni escucha profunda."
+    },
+    "apertura_emocional": {
+     "puntuacion": 3,
+     "comentario": "La paciente se tensó y cerró defensivamente ante respuestas poco empáticas del estudiante."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "Ignoró el peso identitario de la jubilación y redujo su historia a 'aburrimiento' o 'estrés'."
+    },
+    "fortalezas": [
+     "Inició la entrevista con disposición amable y saludo apropiado al contexto clínico.",
+     "Identificó correctamente que la jubilación podría ser un factor relevante para explorar.",
+     "Intentó psicoeducar sobre la ansiedad, mostrando intención de orientar a la paciente."
+    ],
+    "areas_mejora": [
+     "Evitar interpretaciones prematuras y sugerencias ('yoga') sin vínculo terapéutico establecido previamente.",
+     "Profundizar en el material emocional que la paciente ofrece: soledad, pérdida de rol e identidad laboral.",
+     "Aplicar técnicas psicoanalíticas básicas: escucha flotante, señalamiento de lapsus y exploración de lo no dicho."
+    ]
+   }
+  },
+  {
+   "idx": 19,
+   "orient": "Psicoanalítica",
+   "nivel": "intermedio",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica del síntoma al contexto, con hilo conductor claro."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 6,
+     "comentario": "Buena escucha activa, pero falta exploración de lo inconsciente y resistencias desde enfoque psicoanalítico."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Creó espacio seguro respetando silencios y señalando el lenguaje corporal con delicadeza."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Reconoció el contexto de desplazamiento y Samaniego sin forzar ni minimizar la experiencia."
+    },
+    "fortalezas": [
+     "Identificó y señaló el lenguaje corporal del paciente ('su cuerpo cambió, se tensó') conectándolo empáticamente con el relato verbal.",
+     "Respetó los silencios y la resistencia del paciente sin presionar, manteniendo la alianza terapéutica en momento de vulnerabilidad.",
+     "Logró que el paciente revelara información sensible (gritos nocturnos, sueños perturbadores) en una primera entrevista, lo que indica buen rapport."
+    ],
+    "areas_mejora": [
+     "Desde la orientación psicoanalítica, debería explorar las resistencias explícitas del paciente ('pero eso ya pasó') como material clínico central, no solo validarlas.",
+     "El estudiante intervino con interpretaciones tempranas ('algo más está pasando') sin haber construido suficiente alianza ni recabado historia completa, lo que puede generar cierre defensivo.",
+     "Faltó indagar la dimensión familiar y vincular con mayor profundidad: la figura de 'la Rosa', la hija con dificultades, son ejes psicodinámicos no explorados."
+    ]
+   }
+  },
+  {
+   "idx": 20,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "Preguntas dispersas sin hilo conductor claro; salto abrupto a jubilación sin transición."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "No exploró pensamientos automáticos ni ciclos ansiosos; faltó psicoeducación cognitivo-conductual básica."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "Validó la experiencia física, pero cedió ante resistencias sin explorar emociones subyacentes."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Identificó variables contextuales clave, pero no las integró culturalmente ni con sensibilidad."
+    },
+    "fortalezas": [
+     "Validó la experiencia de la paciente diciendo 'yo le creo', reduciendo su vergüenza inicial.",
+     "Recogió información relevante: jubilación, hijos distantes, insomnio y episodios recurrentes.",
+     "Mantuvo un tono empático y no confrontacional durante toda la entrevista."
+    ],
+    "areas_mejora": [
+     "Debió explorar los pensamientos automáticos durante los ataques ('siento que me muero') usando técnicas TCC específicas.",
+     "La pregunta sobre la jubilación fue prematura y sin contexto; genero resistencia evitable en la paciente.",
+     "No utilizó el último relato sobre el monitoreo nocturno para psicoeducar sobre el ciclo ansiedad-hipervigilancia-síntomas."
+    ]
+   }
+  },
+  {
+   "idx": 21,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: síntomas, historia, contexto y cogniciones identificadas secuencialmente."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso de descubrimiento guiado; conectó pensamientos automáticos con respuesta fisiológica correctamente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 8,
+     "comentario": "Validó experiencias sin imponer etiquetas diagnósticas; generó espacio seguro progresivamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró identidad profesional y transición de rol, aunque profundizó poco en red de apoyo."
+    },
+    "fortalezas": [
+     "Uso magistral del descubrimiento guiado al conectar 'no sirvo para nada' con la sintomatología somática sin imponerlo directamente.",
+     "Manejo delicado de las resistencias de la paciente frente a etiquetas como 'ansiedad' y 'depresión', validando sin confrontar.",
+     "Identificación oportuna del cambio contextual clave (jubilación) como hipótesis funcional explorada con tacto clínico."
+    ],
+    "areas_mejora": [
+     "No exploró historia médica completa ni descartó formalmente otros factores, lo cual es necesario en protocolo TCC para síntomas físicos.",
+     "Faltó psicoeducación básica sobre el modelo cognitivo-somático, que habría reforzado la conexión que la paciente comenzó a hacer.",
+     "No evaluó frecuencia, duración ni intensidad de los episodios, información esencial para formular un caso conductual riguroso."
+    ]
+   }
+  },
+  {
+   "idx": 22,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "Comenzó con pregunta cerrada y dirigida; no hubo exploración inicial libre antes de intervenir."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Dio psicoeducación prematura sin evaluación completa; interrumpió el proceso exploratorio necesario."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "Mejoró tras corrección, pero la intervención temprana limitó la apertura emocional inicial del paciente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "No exploró el desplazamiento, contexto de violencia ni implicaciones culturales del paciente colombiano."
+    },
+    "fortalezas": [
+     "El estudiante tuvo la capacidad de reconocer su error y disculparse, retomando la escucha activa con la pregunta correctiva 'qué pasa cuando se duerme'.",
+     "Identificó señales conductuales relevantes como los movimientos del paciente y su comunicación no verbal durante la sesión.",
+     "Exploró la frecuencia del síntoma y el contexto familiar, incluyendo la perspectiva de la esposa como fuente de información colateral."
+    ],
+    "areas_mejora": [
+     "Evitar intervenciones psicoeducativas o recomendaciones antes de completar la evaluación inicial y comprender el motivo de consulta real del paciente.",
+     "Desarrollar habilidades para explorar activamente el contexto sociocultural: desplazamiento forzado, pérdida, duelo migratorio y posible trauma complejo.",
+     "Incorporar preguntas abiertas al inicio de la entrevista que permitan al paciente narrar libremente su experiencia antes de dirigir hacia síntomas específicos."
+    ]
+   }
+  },
+  {
+   "idx": 23,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica impecable: síntomas, historia, contexto cognitivo y emocional."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Identificó pensamientos automáticos correctamente; faltó explorar conductas de evitación y seguridad."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Validación constante y empática generó confianza notable; paciente reveló pensamientos profundos."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Reconoció el rol de 'directora Castro' y la transición de jubilación como contexto clave."
+    },
+    "fortalezas": [
+     "Excelente uso de la técnica socrática para llevar a la paciente a identificar sus pensamientos automáticos de forma autónoma y espontánea.",
+     "Validación empática consistente sin minimizar ni sobre-patologizar las quejas somáticas, manteniendo alianza terapéutica sólida.",
+     "Identificación precisa del pensamiento central 'esto es todo lo que me queda' vinculándolo al ciclo cognitivo-somático de los ataques de pánico."
+    ],
+    "areas_mejora": [
+     "No se exploraron las conductas de seguridad y evitación asociadas al monitoreo corporal, fundamentales en el modelo TCC del pánico.",
+     "Faltó una evaluación breve de riesgo ante expresiones como 'no sirvo para nada' y el aislamiento social descrito al final de la sesión.",
+     "No se introdujo psicoeducación básica sobre la conexión mente-cuerpo, oportunidad clave dada la resistencia inicial de la paciente al diagnóstico psicológico."
+    ]
+   }
+  },
+  {
+   "idx": 24,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: apertura, exploración, síntomas, riesgo suicida."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Identificó pensamientos automáticos y evaluó riesgo; faltó psicoeducación TCC."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Validó emociones constantemente, generando confianza y espacio seguro notable."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró contexto cultural del duelo ni rol de género en su narrativa."
+    },
+    "fortalezas": [
+     "Evaluación de riesgo suicida oportuna y directa, sin evitar el tema delicado.",
+     "Validación emocional consistente que permitió revelaciones progresivas y profundas.",
+     "Identificación precisa de pensamientos automáticos negativos centrales ('no fui suficiente')."
+    ],
+    "areas_mejora": [
+     "Explorar el contexto cultural del duelo y expectativas familiares sobre el rol de cuidadora.",
+     "Introducir psicoeducación breve sobre el vínculo entre duelo, cogniciones y conducta.",
+     "Profundizar en red de apoyo y recursos ante ideación pasiva de muerte detectada."
+    ]
+   }
+  },
+  {
+   "idx": 25,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: de motivo de consulta hacia cogniciones y contexto familiar."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Identificó pensamiento automático clave ('si no reacciono es verdad') con técnica cognitiva apropiada."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró que el adolescente resistente se abriera emocionalmente con validación constante y empática."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoció dinámica escolar y familiar, pero no exploró el contexto socioeconómico mencionado explícitamente."
+    },
+    "fortalezas": [
+     "Excelente manejo del adolescente resistente: validó su perspectiva sin confrontar, generando alianza terapéutica rápidamente.",
+     "Identificación precisa de un pensamiento automático nuclear ('si me callo es porque es verdad') usando técnica cognitivo-conductual adecuada.",
+     "Uso natural del reflejo empático y paráfrasis para mantener al paciente hablando sin sentirse interrogado."
+    ],
+    "areas_mejora": [
+     "No exploró el significado emocional del comentario sobre el padre Ricardo vs Jorge; tema con carga identitaria relevante que quedó sin desarrollar.",
+     "Omitió preguntar sobre el impacto del estatus socioeconómico en la autoestima del paciente, dato central en el relato del conflicto.",
+     "Faltó evaluar frecuencia y funcionalidad de la conducta agresiva para formular hipótesis diagnóstica conductual más precisa."
+    ]
+   }
+  },
+  {
+   "idx": 26,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de estructura; las preguntas saltan sin hilo conductor claro."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Predominan preguntas cerradas y biomédicas; no se aplican técnicas cognitivo-conductuales como psicoeducación o exploración de pensamientos automáticos."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "Se perdieron momentos emocionales clave como las 'imágenes' y el desplazamiento; no hubo validación emocional."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "No se exploró el desplazamiento desde Samaniego ni su impacto sociocultural y emocional en la familia."
+    },
+    "fortalezas": [
+     "El estudiante logró establecer un tono conversacional inicial que redujo parcialmente la distancia con el paciente.",
+     "Identificó un dato clínico relevante al indagar sobre el consumo de alcohol y ofreció psicoeducación básica sobre su efecto en el sueño.",
+     "Permitió que el paciente hablara con cierta libertad, lo que posibilitó que emergieran datos importantes como el desplazamiento y las 'imágenes'."
+    ],
+    "areas_mejora": [
+     "Es urgente que el estudiante reconozca y responda a señales emocionales como bajar la mirada o mencionar 'imágenes no deseadas', usando reflejo empático antes de continuar con preguntas.",
+     "Desde la orientación cognitivo-conductual, debe explorar los pensamientos automáticos nocturnos y las creencias del paciente sobre su situación, no solo los síntomas conductuales del sueño.",
+     "El estudiante debe integrar el contexto de desplazamiento forzado desde Samaniego como variable central, evaluando duelo migratorio, pérdidas y factores de estrés postraumático."
+    ]
+   }
+  },
+  {
+   "idx": 27,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: desde motivo de consulta hasta exploración cognitiva conductual."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Identifica pensamientos automáticos y expectativas correctamente, falta explorar conductas y consecuencias."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "Tono empático presente, pero no confrontó minimización de violencia con suficiente cuidado."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 5,
+     "comentario": "No exploró dinámicas de género, contexto cultural machista ni riesgo para Daniela."
+    },
+    "fortalezas": [
+     "Identificó correctamente pensamientos automáticos como 'nunca va a cambiar' vinculándolos a la activación emocional.",
+     "Usó una intervención socrática efectiva al señalar la expectativa negativa previa al llegar a casa.",
+     "Mantuvo rapport sin rechazar al paciente, facilitando que reconociera parcialmente su responsabilidad."
+    ],
+    "areas_mejora": [
+     "No evaluó riesgo de violencia hacia la pareja: es prioritario antes de continuar exploración cognitiva.",
+     "Validó excesivamente el malestar del paciente sin cuestionar la minimización y externalización de la responsabilidad.",
+     "Omitió el contexto de violencia de pareja íntima y sus implicaciones éticas y de seguridad para Daniela."
+    ]
+   }
+  },
+  {
+   "idx": 28,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: de motivo de consulta a exploración cognitiva profunda."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso de reestructuración cognitiva y detección de pensamientos automáticos."
+    },
+    "apertura_emocional": {
+     "puntuacion": 8,
+     "comentario": "Validó emociones efectivamente; el paciente se abrió progresivamente sin presión."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoció la burla por el acento de Pasto, aunque pudo profundizar más."
+    },
+    "fortalezas": [
+     "Identificó y trabajó creencias nucleares como 'si hablo, me lastiman' de forma natural y no confrontacional.",
+     "Usó el ejemplo de Laura como evidencia contraria brillantemente, técnica socrática bien aplicada.",
+     "Validó la experiencia de dolor sin reforzar la evitación, equilibrio difícil logrado con éxito."
+    ],
+    "areas_mejora": [
+     "Profundizar en el impacto del contexto cultural pastuso: el acento como factor identitario merece más exploración.",
+     "Evitar frases como 'suena como si fuera exagerado' que el paciente puede internalizar como invalidación.",
+     "Incluir al final una síntesis o tarea conductual concreta, coherente con el enfoque cognitivo-conductual."
+    ]
+   }
+  },
+  {
+   "idx": 29,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y coherente: síntomas, historia, cogniciones, conductas de evitación."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Identificó el ciclo hipervigilancia-ansiedad correctamente; faltó psicoeducación formal y registro conductual."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Validación empática consistente; la paciente reveló miedos profundos y soledad progresivamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Consideró jubilación, rol identitario y red social; podría explorar más el contexto familiar latinoamericano."
+    },
+    "fortalezas": [
+     "Identificó y nombró el ciclo de hipervigilancia de forma clara y accesible para la paciente, sin tecnicismos excesivos.",
+     "Utilizó las propias palabras de la paciente ('sin hacer nada', 'círculo') para construir hipótesis clínicas, fortaleciendo la alianza terapéutica.",
+     "Mantuvo un tono validador constante sin minimizar ni sobrepatologizar, logrando que la paciente revelara su miedo a morir sola."
+    ],
+    "areas_mejora": [
+     "Iniciar psicoeducación básica sobre el trastorno de pánico una vez identificado el ciclo, aprovechando la apertura cognitiva de la paciente.",
+     "Explorar con mayor profundidad el impacto de la identidad laboral perdida usando técnicas cognitivas como la flecha descendente o el registro de pensamientos automáticos.",
+     "Evaluar explícitamente conductas de evitación situacional (si sale menos, evita ejercicio, etc.) para completar la conceptualización conductual del caso."
+    ]
+   }
+  },
+  {
+   "idx": 30,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "La entrevista avanza lógicamente: síntomas, cogniciones, historia y duelo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Usa reestructuración cognitiva apropiadamente, aunque algo prematura en momentos de alta carga emocional."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Valida el llanto, normaliza emociones y crea espacio seguro de forma consistente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No explora roles familiares, contexto latinoamericano ni la figura de Catalina con profundidad."
+    },
+    "fortalezas": [
+     "Identifica y trabaja pensamientos automáticos como 'no sirvo para nada' con habilidad natural.",
+     "Conecta la situación actual con el duelo por la madre, ampliando la comprensión del caso.",
+     "Valida activamente las emociones sin minimizarlas, generando confianza visible en la paciente."
+    ],
+    "areas_mejora": [
+     "La reestructuración cognitiva en la segunda intervención fue prematura; conviene mayor contención antes de cuestionar evidencias.",
+     "No explora a Catalina ni el conflicto familiar, que parece fuente significativa de culpa y distorsión cognitiva.",
+     "Omite explorar riesgo: semanas en cama, 'ya no puedo más' y desesperanza requieren evaluación de ideación suicida."
+    ]
+   }
+  },
+  {
+   "idx": 31,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: apertura, exploración del duelo, trabajo cognitivo sobre culpa."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso preciso de reestructuración cognitiva y búsqueda de evidencia, muy apropiado para TCC."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Validó el llanto sin juicio, generó confianza desde el primer intercambio eficazmente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Considera rol de cuidadora y dinámica familiar, pero no explora contexto sociocultural más amplio."
+    },
+    "fortalezas": [
+     "Validación emocional inmediata y genuina que normalizó la expresión del llanto del paciente.",
+     "Uso hábil de la técnica de búsqueda de evidencia para cuestionar el pensamiento automático de culpa.",
+     "Intervención metacognitiva efectiva al señalar el patrón de resistencia a la evidencia positiva."
+    ],
+    "areas_mejora": [
+     "Explorar ideación de desesperanza ('ya no puedo más') con mayor urgencia para descartar riesgo suicida.",
+     "Indagar más sobre el contexto familiar: la dinámica con la hermana Catalina parece clínicamente relevante.",
+     "Incorporar preguntas sobre red de apoyo social y recursos del paciente para completar la evaluación funcional."
+    ]
+   }
+  },
+  {
+   "idx": 32,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: del motivo de consulta al ciclo evitación-rumiación."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Identificó pensamientos automáticos y el ciclo cognitivo-conductual con habilidad."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente comenzó reticente y logró abrirse emocionalmente con naturalidad."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró contexto universitario, familiar ni cultural con suficiente profundidad."
+    },
+    "fortalezas": [
+     "Identificó pensamientos automáticos negativos de forma orgánica y sin presionar a la paciente",
+     "Psicoeducó el ciclo evitación-malestar de manera accesible usando las propias palabras de la paciente",
+     "Validó las emociones consistentemente, evitando que la paciente se sintiera juzgada o ridícula"
+    ],
+    "areas_mejora": [
+     "Explorar la historia de estas dificultades sociales: cuándo comenzaron y posibles eventos precipitantes",
+     "Indagar dimensiones del contexto sociocultural como dinámicas familiares o presiones académicas en su universidad",
+     "Antes de cerrar la sesión, establecer un marco de trabajo colaborativo y expectativas del proceso terapéutico"
+    ]
+   }
+  },
+  {
+   "idx": 33,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "La entrevista avanza pero sin estructura clara ni objetivos clínicos definidos."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Falta exploración cognitiva de pensamientos automáticos y patrones conductuales específicos."
+    },
+    "apertura_emocional": {
+     "puntuacion": 7,
+     "comentario": "El paciente abrió temas sensibles como su papá, indicando cierta confianza generada."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Se reconoce el contexto familiar pero no se exploran variables socioculturales como masculinidad y vulnerabilidad."
+    },
+    "fortalezas": [
+     "Validó emocionalmente al paciente cuando expresó molestia por comentarios sobre su padre, usando una respuesta empática natural.",
+     "Logró que un adolescente resistente y enviado de forma involuntaria revelara información familiar significativa y dolorosa.",
+     "Mantuvo una actitud no enjuiciadora que el paciente percibió, contrastando con su expectativa de ser 'el malo del paseo'."
+    ],
+    "areas_mejora": [
+     "Debe incorporar técnicas TCC explícitas: identificar pensamientos automáticos como 'no me voy a quedar callado' y explorar creencias subyacentes.",
+     "La pregunta '¿peleas mucho?' es cerrada y estigmatizante; reemplazarla por preguntas abiertas sobre comportamiento y contexto situacional.",
+     "Ausencia de encuadre inicial: el estudiante debió establecer confidencialidad, propósito y límites de la sesión antes de iniciar la exploración."
+    ]
+   }
+  },
+  {
+   "idx": 34,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de hilo lógico; los temas se abordan de forma dispersa y reactiva."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Sugirió ejercicio prematuramente; escasa psicoeducación cognitivo-conductual y sin registro de pensamientos."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "Validó el llanto, pero preguntas inoportunas interrumpieron momentos emocionalmente significativos."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 5,
+     "comentario": "No exploró dimensiones culturales del duelo, rol de cuidadora ni dinámica familiar latinoamericana."
+    },
+    "fortalezas": [
+     "Reconoció su error al hacer la pregunta sobre ejercicio y se disculpó, mostrando humildad clínica.",
+     "Permitió que la paciente desarrollara narrativas importantes sobre el duelo, la hermana y el rol materno.",
+     "No interrumpió el llanto y verbalizó que no era necesario disculparse, generando algo de seguridad."
+    ],
+    "areas_mejora": [
+     "Antes de explorar síntomas específicos, debe establecer rapport y explorar el motivo de consulta con preguntas abiertas como '¿qué te trajo hoy aquí?'",
+     "Debe realizar una evaluación de riesgo ante señales de alarma como 'para qué levantarme si total...', sin omitirlas.",
+     "Aplicar técnicas CBT concretas: identificar pensamientos automáticos de culpa ('no hice suficiente') en lugar de solo escuchar sin intervención estructurada."
+    ]
+   }
+  },
+  {
+   "idx": 35,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "La entrevista carece de estructura clara; las preguntas surgen sin hilo conductor definido."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "No se aplican técnicas TCC como psicoeducación, registro de pensamientos o reestructuración cognitiva básica."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "Hubo intentos de validación emocional, pero no se profundizó cuando el paciente mostró vulnerabilidad."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Se identificó el contexto familiar cambiante, pero no se exploró su impacto cultural o socioeconómico."
+    },
+    "fortalezas": [
+     "Validó la frustración del paciente con la frase 'eso suena frustrante', generando un mínimo de rapport inicial.",
+     "Logró que el paciente revelara información relevante sobre la dinámica familiar a pesar de la resistencia inicial.",
+     "Mantuvo un tono no confrontacional ante la actitud defensiva del adolescente, evitando una ruptura temprana."
+    ],
+    "areas_mejora": [
+     "Debe explorar el comentario 'da igual, no importa' como señal emocional significativa en lugar de dejarlo pasar sin intervenir.",
+     "Necesita incorporar técnicas TCC básicas: identificar pensamientos automáticos asociados a las situaciones de conflicto descritas.",
+     "Debe establecer encuadre y objetivos de la entrevista desde el inicio para reducir la resistencia del paciente ante la consulta impuesta."
+    ]
+   }
+  },
+  {
+   "idx": 36,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: de motivo de consulta a cogniciones y patrones conductuales."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso cognitivo-conductual: identificó pensamiento automático y vinculó conductas."
+    },
+    "apertura_emocional": {
+     "puntuacion": 7,
+     "comentario": "Generó espacio sin confrontar, aunque el paciente mantuvo resistencia defensiva notable."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró explícitamente el mandato de género ni la frase del padre como esquema cultural."
+    },
+    "fortalezas": [
+     "Identificó con precisión el pensamiento automático 'ella no me respeta' y lo ancló al episodio conductual.",
+     "Realizó una intervención de vinculación conductual sutil al conectar control, celos y explosión sin confrontar directamente.",
+     "Mantuvo neutralidad técnica sin validar la externalización de responsabilidad del paciente."
+    ],
+    "areas_mejora": [
+     "Explorar el esquema cultural transmitido por la figura paterna ('el que no cuida lo suyo lo pierde') como distorsión cognitiva nuclear.",
+     "Introducir psicoeducación breve sobre el ciclo de violencia para interrumpir la minimización ('un poquito', 'solo el plato').",
+     "Evaluar riesgo de escalada de violencia con preguntas directas y estructuradas antes de cerrar la sesión."
+    ]
+   }
+  },
+  {
+   "idx": 37,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 6,
+     "comentario": "Secuencia aceptable pero sin exploración sistemática de síntomas cognitivos y conductuales."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 5,
+     "comentario": "Falta identificar pensamientos automáticos, distorsiones y conductas de seguridad explícitamente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 7,
+     "comentario": "La paciente reveló soledad y cambios vitales, indicando apertura parcial lograda."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 8,
+     "comentario": "Reconoció jubilación y soledad como factores contextuales relevantes para la paciente."
+    },
+    "fortalezas": [
+     "Identificó la coincidencia temporal entre jubilación y síntomas, conectando contexto vital con la clínica.",
+     "Exploró el contenido de los pensamientos nocturnos, obteniendo información cognitiva valiosa sobre catastrofización.",
+     "Mantuvo un tono no confrontacional que permitió a la paciente revelar su aislamiento social progresivo."
+    ],
+    "areas_mejora": [
+     "Debió explorar conductas de seguridad como 'monitoreo corporal', centrales en el modelo cognitivo-conductual del pánico.",
+     "Faltó normalizar y validar explícitamente las emociones antes de introducir hipótesis psicológicas como 'ansiedad por cambios'.",
+     "No se abordó el historial de tratamientos previos ni las expectativas de la paciente sobre la consulta psicológica."
+    ]
+   }
+  },
+  {
+   "idx": 38,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: presentación, exploración del duelo, cogniciones y relaciones."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Identifica distorsiones cognitivas correctamente, pero falta psicoeducación y registro conductual."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Validó el llanto, normalizó el duelo y generó confianza genuina desde el inicio."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró suficientemente el rol de cuidadora ni dinámicas culturales de género presentes."
+    },
+    "fortalezas": [
+     "Validación emocional consistente: normalizó el llanto y cuestionó el 'tiempo límite' del duelo con sensibilidad.",
+     "Identificación precisa de distorsiones cognitivas clave: autoculpa, lectura de mente e inferencia arbitraria sobre Andrés.",
+     "Uso efectivo de preguntas socráticas para explorar evidencias concretas de las creencias de la paciente."
+    ],
+    "areas_mejora": [
+     "Incluir psicoeducación breve sobre duelo y síntomas depresivos, coherente con el enfoque cognitivo-conductual.",
+     "Explorar el impacto del rol prolongado de cuidadora durante ocho meses, posible duelo anticipatorio y agotamiento.",
+     "Indagar ideación suicida o pasiva dada la intensidad del malestar expresado ('ya no puedo más', 'algo se rompió')."
+    ]
+   }
+  },
+  {
+   "idx": 39,
+   "orient": "Cognitivo-Conductual",
+   "nivel": "novato",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "Saltó temas sin seguir el hilo emocional; faltó coherencia progresiva."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "No exploró cogniciones ni patrones conductuales desde enfoque cognitivo-conductual."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "Hubo acogida básica pero perdió momentos clave de profundización emocional."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 5,
+     "comentario": "Ignoró el rol materno y dinámicas familiares como contexto central del malestar."
+    },
+    "fortalezas": [
+     "Mantuvo un tono tranquilo y no confrontacional que permitió que la paciente hablara con cierta fluidez",
+     "Evitó interrumpir narrativas importantes y dejó espacio para que la paciente desarrollara su experiencia",
+     "Intentó explorar actividades previas placenteras, lo cual es relevante dentro del modelo cognitivo-conductual"
+    ],
+    "areas_mejora": [
+     "Debió explorar la cognición 'ya no soy nada' con técnicas cognitivas como el cuestionamiento socrático en lugar de cambiar de tema",
+     "Al decir 'no es muy considerado' emitió un juicio sobre Andrés que puede afectar la alianza y sesgar la visión de la paciente",
+     "Omitió indagar sobre ideación pasiva de muerte presente en frases como 'no quiero despertar', un punto clínico prioritario de seguridad"
+    ]
+   }
+  },
+  {
+   "idx": 40,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y fluida, desde síntomas físicos hasta identidad personal."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Uso humanista apropiado: escucha activa, reflejo empático y validación constante."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente reveló material profundo sobre identidad; espacio seguro muy logrado."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoció rol profesional y viudez, aunque no exploró contexto sociocultural más amplio."
+    },
+    "fortalezas": [
+     "Validó la experiencia física sin invalidar ni patologizar prematuramente, generando confianza inmediata.",
+     "Identificó y señaló hábilmente la conexión temporal entre jubilación y síntomas sin imponerla.",
+     "Reencuadró 'pérdida de rol' con lenguaje no clínico, facilitando que la paciente elaborara espontáneamente."
+    ],
+    "areas_mejora": [
+     "No exploró la frase 'quiero decirles algo que no sé cómo explicar'; invitar a completarla habría profundizado.",
+     "Faltó indagar red de apoyo social actual, especialmente relevante dado el aislamiento descrito y la viudez.",
+     "Sería útil preguntar explícitamente sobre el significado subjetivo de la muerte del esposo en relación con la identidad actual."
+    ]
+   }
+  },
+  {
+   "idx": 41,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y natural, de presentación a exploración emocional profunda sin saltos bruscos."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso consistente de reflejo, validación y preguntas experienciales propias del enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 10,
+     "comentario": "La paciente pasó de resistencia inicial a revelaciones vulnerables; espacio seguro logrado exitosamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoce dinámica familiar pero no explora contexto sociocultural más amplio de la paciente."
+    },
+    "fortalezas": [
+     "Excelente uso del reflejo inmediato al señalar el patrón de autominimización en tiempo real con la escritura.",
+     "Validación genuina y consistente que permitió a la paciente profundizar progresivamente en sus emociones.",
+     "Habilidad para devolver la agencia a la paciente con preguntas como '¿quién decide qué es importante?'"
+    ],
+    "areas_mejora": [
+     "Explorar el contexto sociocultural: edad, entorno escolar o laboral, grupo social, que pueden influir en la dinámica.",
+     "Incorporar preguntas sobre recursos y fortalezas más allá de la escritura para ampliar la visión de la paciente.",
+     "Evitar la frase 'te entiendo perfectamente', que puede sonar poco auténtica; mejor parafrasear el contenido específico."
+    ]
+   }
+  },
+  {
+   "idx": 42,
+   "orient": "Humanista",
+   "nivel": "avanzado",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Flujo lógico y progresivo, desde el motivo de consulta hasta historia de vida."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso excelente de reflejo empático, preguntas abiertas y validación humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 10,
+     "comentario": "Logró un espacio seguro; la paciente conectó con material muy profundo y vulnerable."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Recogió contexto familiar y rol de cuidadora, aunque no exploró dimensión sociocultural explícita."
+    },
+    "fortalezas": [
+     "Validación emocional consistente que permitió a la paciente soltar la culpa y profundizar sin interrupciones",
+     "Habilidad para detectar y explorar material clave como 'antes de que se fuera', conectando duelo y autobiografía",
+     "Presencia auténtica y no directiva que generó el primer insight de la paciente sobre sus veinte años de autoexigencia"
+    ],
+    "areas_mejora": [
+     "Explorar brevemente red de apoyo actual: Matías, Andrés y la hermana Catalina fueron mencionados sin indagación posterior",
+     "Realizar una valoración mínima del riesgo dado el nivel de agotamiento, desborde emocional y autopercepción de fracaso",
+     "Incorporar psicoeducación suave sobre duelo complicado y agotamiento del cuidador para normalizar la experiencia desde un marco clínico"
+    ]
+   }
+  },
+  {
+   "idx": 43,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: desde motivo de consulta hacia historia personal profunda."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso humanista: reflejo empático, preguntas abiertas y validación constante."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "El paciente reveló vulnerabilidad profunda, indicando espacio seguro bien construido."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoció contexto familiar colombiano, pero no exploró explícitamente mandatos de masculinidad."
+    },
+    "fortalezas": [
+     "Mantuvo una escucha activa genuina que permitió al paciente autodescubrirse progresivamente sin sentirse juzgado.",
+     "Utilizó los propios recursos verbales del paciente ('nadie me ve a mí') para profundizar emocionalmente de forma natural.",
+     "Validó el reconocimiento de responsabilidad del paciente sin reforzar minimizaciones, equilibrio clínico apropiado."
+    ],
+    "areas_mejora": [
+     "Explorar explícitamente los mandatos de masculinidad presentes ('los hombres no se quejan') como factor sociocultural central del caso.",
+     "Abordar con mayor precisión el contexto de violencia de pareja: el episodio del plato requiere evaluación de riesgo más directa.",
+     "Incorporar preguntas sobre frecuencia y escalada de episodios similares antes de profundizar en historia de origen."
+    ]
+   }
+  },
+  {
+   "idx": 44,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista carece de estructura; las preguntas son reactivas y sin dirección terapéutica clara."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Desde orientación humanista, falta empatía genuina, escucha activa y exploración del mundo interno del paciente."
+    },
+    "apertura_emocional": {
+     "puntuacion": 3,
+     "comentario": "El estudiante valida narrativas de minimización y culpabilización, generando un espacio poco seguro para Daniela."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 2,
+     "comentario": "No se abordó el contexto de violencia de pareja ni se consideró la seguridad de la víctima."
+    },
+    "fortalezas": [
+     "El estudiante logró que el paciente describiera el incidente del plato con cierto detalle, obteniendo información relevante.",
+     "Mantuvo un tono no confrontacional que permitió que el paciente continuara hablando con relativa apertura.",
+     "Intentó introducir una estrategia de autorregulación emocional, mostrando interés en el cambio conductual."
+    ],
+    "areas_mejora": [
+     "El estudiante validó activamente la narrativa de culpabilización hacia Daniela ('¿usted cree que ella exagera?'), lo cual es éticamente inapropiado en contextos de violencia de pareja y contradice los principios humanistas de no-directividad responsable.",
+     "No se realizó ninguna evaluación de riesgo ni se exploró la seguridad de la pareja, omisión grave dado el contexto de violencia doméstica descrito.",
+     "El estudiante no exploró la experiencia emocional profunda del paciente ni usó reflejos empáticos genuinos propios del enfoque humanista; las intervenciones fueron superficiales y coloquiales."
+    ]
+   }
+  },
+  {
+   "idx": 45,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: de la queja inicial hacia exploración emocional profunda y funcional."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 7,
+     "comentario": "Buen uso de reflejo empático y preguntas abiertas, coherentes con enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró momentos genuinos de apertura emocional en un paciente inicialmente muy defensivo."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Identificó la masculinidad como factor, pero no exploró activamente su impacto cultural."
+    },
+    "fortalezas": [
+     "Excelente manejo del reflejo empático sin validar la conducta violenta, manteniendo alianza terapéutica.",
+     "Identificó y señaló oportunamente el momento de quiebre emocional del paciente con la frase 'necesitabas contención'.",
+     "Usó el lenguaje propio del paciente ('presión que tiene que salir') para profundizar sin confrontar directamente."
+    ],
+    "areas_mejora": [
+     "No exploró la frecuencia ni el patrón de los episodios de violencia, información clínica esencial para evaluar riesgo.",
+     "Cuando el paciente mencionó 'los hombres no dicen esas cosas', fue una oportunidad perdida para explorar mandatos de género.",
+     "El estudiante validó excesivamente el estrés laboral como contexto, lo que pudo reforzar la externalización de responsabilidad."
+    ]
+   }
+  },
+  {
+   "idx": 46,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica excelente: desde el motivo de consulta hacia núcleos emocionales profundos."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso sobresaliente de reflejo empático, preguntas abiertas y rastreo de experiencia subjetiva."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "El paciente reveló contenido íntimo inhabitual; el espacio generado fue genuinamente seguro."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Exploró mandatos de masculinidad, pero no abordó explícitamente el contexto de violencia doméstica."
+    },
+    "fortalezas": [
+     "Devolvió con precisión las palabras del paciente ('que no me importara a alguien') para profundizar emocionalmente sin confrontar.",
+     "Logró que un paciente resistente y externalizado contactara vulnerabilidad genuina en una sola sesión.",
+     "Mantuvo curiosidad auténtica sobre la experiencia interna sin perder de vista los hechos concretos."
+    ],
+    "areas_mejora": [
+     "Al final el paciente minimizó ('eso no tiene nada que ver'), y el estudiante no intervino para sostener la conexión que se estaba formando.",
+     "No se abordó la seguridad de Daniela ni el riesgo de reincidencia, aspectos éticos obligatorios en contextos de violencia.",
+     "Faltó explorar el consumo de alcohol mencionado por el paciente, dato clínicamente relevante que quedó sin seguimiento."
+    ]
+   }
+  },
+  {
+   "idx": 47,
+   "orient": "Humanista",
+   "nivel": "avanzado",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y orgánica: del motivo de consulta hacia historia vital profunda."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Reflejo empático, validación y preguntas abiertas consistentes con enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 10,
+     "comentario": "La paciente llora, se abre y realiza insight espontáneo; espacio muy seguro logrado."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoce rol familiar y género, pero no exploró contexto socioeconómico ni cultural explícitamente."
+    },
+    "fortalezas": [
+     "Validación emocional inmediata y consistente: nunca invalidó el llanto ni las emociones de la paciente.",
+     "Pregunta pivote 'quién te ha sostenido a vos' generó insight genuino y profundo en la paciente.",
+     "Uso hábil del reflejo de contenido para devolver contradicciones sin confrontación directa."
+    ],
+    "areas_mejora": [
+     "Explorar riesgo psicológico ante frases como 'ya no puedo más' y 'no me queda nada' con más sistematismo.",
+     "Indagar el contexto relacional con Andrés y Matías para comprender red de apoyo actual disponible.",
+     "Incorporar preguntas sobre recursos y fortalezas previas para equilibrar el foco en el dolor presente."
+    ]
+   }
+  },
+  {
+   "idx": 48,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Andrés Villamizar",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica clara: de lo conductual a lo emocional profundo de forma gradual."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 8,
+     "comentario": "Reflejo empático y confrontación suave bien aplicados; coherente con enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró que el paciente bajara la guardia y verbalizara vulnerabilidad genuina sobre insuficiencia."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "No exploró contexto cultural ni historia familiar que podría explicar los patrones relacionales."
+    },
+    "fortalezas": [
+     "Usó el propio lenguaje del paciente ('hervor') para profundizar emocionalmente sin generar resistencia.",
+     "Señaló el patrón de externalización ('pasas de ti a ella') con delicadeza y obtuvo reconocimiento genuino.",
+     "Mantuvo calidez y validación sin perder el foco clínico ni minimizar la conducta problemática."
+    ],
+    "areas_mejora": [
+     "Debe explorar historia de violencia previa y frecuencia real de episodios; 'una sola vez' requiere indagación directa.",
+     "Necesita introducir psicoeducación o al menos nombrar la dinámica de control sin esperar más sesiones.",
+     "Debe explorar el contexto sociocultural y familiar del paciente para comprender el modelo relacional aprendido."
+    ]
+   }
+  },
+  {
+   "idx": 49,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "Los temas cambian abruptamente sin transiciones claras ni hilo conductor visible."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Desde enfoque humanista, falta reflejo empático profundo y validación genuina constante."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "El paciente comenzó a abrirse levemente, pero preguntas invasivas interrumpieron el proceso."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Reconoció la frustración del adolescente, pero ignoró señales del contexto familiar y escolar."
+    },
+    "fortalezas": [
+     "Evitó confirmar el prejuicio del paciente sobre adultos condescendientes al inicio de la entrevista.",
+     "Validó brevemente la frustración del paciente con la frase 'eso debe ser frustrante'.",
+     "Permitió que el paciente expresara su perspectiva sobre la pelea sin interrumpirlo de inmediato."
+    ],
+    "areas_mejora": [
+     "Evitar preguntas etiquetadoras como '¿eres una persona violenta?' que generan defensividad innecesaria.",
+     "Desarrollar transiciones más suaves entre temas para mantener coherencia narrativa y confianza.",
+     "Profundizar en la figura de 'Jorge' y la dinámica familiar antes de avanzar a otros tópicos."
+    ]
+   }
+  },
+  {
+   "idx": 50,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Elena Castro",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 6,
+     "comentario": "Secuencia aceptable pero con saltos temáticos abruptos sin transiciones claras."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 5,
+     "comentario": "Escasa escucha reflexiva y reflejo empático; predominan preguntas cerradas poco humanistas."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "No exploró la emoción cuando la paciente se interrumpió y cambió de tema."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró jubilación y contexto familiar latinoamericano, aunque superficialmente."
+    },
+    "fortalezas": [
+     "Identificó correctamente la conexión entre la jubilación y el inicio de los síntomas somáticos.",
+     "Exploró la red de apoyo social, incluyendo amistades, hijos y actividades de ocio.",
+     "Mantuvo una actitud no confrontacional ante las creencias de la paciente sobre su salud física."
+    ],
+    "areas_mejora": [
+     "Ante las pausas y cortes emocionales de la paciente, aplicar reflejo empático explícito en lugar de continuar con otra pregunta cerrada.",
+     "Profundizar en la identidad de 'la directora que resolvía todo': explorar la pérdida de rol con técnicas humanistas como la validación experiencial.",
+     "Reformular preguntas cerradas a abiertas para facilitar la expresión emocional, característica central del enfoque humanista."
+    ]
+   }
+  },
+  {
+   "idx": 51,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "María González",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "Inició con pregunta cerrada y directiva; sin exploración progresiva ni encuadre inicial."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 2,
+     "comentario": "Dio consejo directivo, contrario al enfoque humanista; no usó reflejo ni empatía genuina."
+    },
+    "apertura_emocional": {
+     "puntuacion": 3,
+     "comentario": "El consejo 'sal más' cerró el espacio emocional; paciente se cruzó de brazos defensivamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No exploró contexto familiar, cultural ni universitario que influye en el aislamiento de María."
+    },
+    "fortalezas": [
+     "Validó brevemente la preferencia por la soledad, normalizando la experiencia de la paciente.",
+     "Realizó algunas preguntas abiertas que permitieron a la paciente expresar sus temores sociales.",
+     "Mantuvo continuidad temática explorando el miedo al juicio de los demás."
+    ],
+    "areas_mejora": [
+     "Evitar consejos directivos ('deberías salir más'); en enfoque humanista se refleja, no se prescribe.",
+     "Realizar encuadre inicial antes de preguntar; la paciente llegó ambivalente y necesitaba bienvenida cálida.",
+     "Explorar las señales no verbales (brazos cruzados, mirada esquiva) para profundizar la apertura emocional."
+    ]
+   }
+  },
+  {
+   "idx": 52,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista saltó abruptamente entre temas sin hilo conductor claro."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "Usó preguntas cerradas y directivas; la orientación humanista exige escucha empática profunda."
+    },
+    "apertura_emocional": {
+     "puntuacion": 5,
+     "comentario": "Hubo un momento empático, pero la respuesta final invalidó la experiencia emocional del paciente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 4,
+     "comentario": "No exploró el contexto de duelo, cuidado prolongado ni dinámicas familiares latinoamericanas."
+    },
+    "fortalezas": [
+     "Logró generar que la paciente revelara información muy significativa sobre el duelo y la pérdida de su madre.",
+     "En un momento reconoció el peso emocional de sentirse fallando a todos, mostrando intención empática.",
+     "La paciente se mantuvo en la sesión y continuó hablando a pesar de las interrupciones temáticas."
+    ],
+    "areas_mejora": [
+     "Evitar la reaseguración prematura ('hiciste todo lo que pudiste') que invalida y cierra la exploración emocional antes de tiempo.",
+     "Reemplazar las preguntas cerradas iniciales (horas de sueño, pareja, trabajo) por reflexiones que sigan el hilo emocional del paciente.",
+     "Desarrollar la escucha activa humanista: reflejar sentimientos, validar la ambivalencia y acompañar el silencio antes de preguntar."
+    ]
+   }
+  },
+  {
+   "idx": 53,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Carlos Rodríguez",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 4,
+     "comentario": "La entrevista sigue síntomas físicos sin explorar el relato del paciente de forma organizada."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 3,
+     "comentario": "No usó escucha activa, reflejo emocional ni validación; técnicas esenciales del enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 4,
+     "comentario": "El estudiante no recogió señales emocionales clave; el paciente bajó la mirada varias veces sin respuesta."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 3,
+     "comentario": "Ignoró el desplazamiento de Samaniego, pérdida comunitaria y contexto de migración forzada evidente."
+    },
+    "fortalezas": [
+     "Saludó cordialmente y orientó al paciente sobre el rol del psicólogo de manera clara y oportuna.",
+     "Identificó el síntoma principal de insomnio y comenzó a explorar su duración temporal.",
+     "Mantuvo un tono no confrontacional al escuchar la mención del consumo de alcohol."
+    ],
+    "areas_mejora": [
+     "Debe explorar el desplazamiento forzado mencionado; es contexto clínico crítico que fue completamente omitido.",
+     "Necesita usar reflejos emocionales y paráfrasis cuando el paciente muestra señales no verbales de malestar.",
+     "Debe evitar validar minimizaciones del paciente como 'el trabajo cansa'; esto cierra la exploración emocional."
+    ]
+   }
+  },
+  {
+   "idx": 54,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "La entrevista avanza sin hilo conductor claro; las transiciones entre temas son abruptas."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Faltan reflexiones empáticas, validaciones y paráfrasis propias del enfoque humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "El paciente comenzó a abrirse levemente, aunque el estudiante no profundizó los momentos clave."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 6,
+     "comentario": "Reconoce el contexto familiar y socioeconómico pero no lo integra activamente en la entrevista."
+    },
+    "fortalezas": [
+     "Evitó dar consejos directivos cuando el paciente lo anticipó, respetando su autonomía.",
+     "Identificó y preguntó sobre Jorge, un actor relevante no mencionado previamente.",
+     "Realizó una pregunta emocional directa sobre las visitas canceladas del padre."
+    ],
+    "areas_mejora": [
+     "Debe usar reflexiones empáticas ('parece que eso duele') al detectar momentos de vulnerabilidad como la voz baja.",
+     "Necesita validar explícitamente las emociones del paciente antes de continuar con nuevas preguntas.",
+     "Debe aprovechar las pausas y el lenguaje corporal del paciente como invitaciones a explorar más profundamente."
+    ]
+   }
+  },
+  {
+   "idx": 55,
+   "orient": "Humanista",
+   "nivel": "novato",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 5,
+     "comentario": "La entrevista avanzó sin hilo conductor claro; las preguntas siguieron al paciente sin estructura planificada."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 4,
+     "comentario": "Escasa aplicación humanista; faltó reflejo empático, validación genuina y preguntas abiertas consistentes."
+    },
+    "apertura_emocional": {
+     "puntuacion": 6,
+     "comentario": "El momento 'eso debe doler' fue acertado y generó apertura, pero no se sostuvo ni profundizó adecuadamente."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoció el contexto socioeconómico y adolescente; usó lenguaje cercano al del paciente naturalmente."
+    },
+    "fortalezas": [
+     "Identificó un momento emocional clave al nombrar el dolor por los comentarios sobre el padre, generando apertura genuina.",
+     "Aclaró la confidencialidad espontáneamente cuando el paciente lo preguntó, fortaleciendo la confianza en el vínculo.",
+     "Adoptó un lenguaje coloquial y cercano acorde a la edad y contexto sociocultural del adolescente."
+    ],
+    "areas_mejora": [
+     "Desarrollar preguntas abiertas de enfoque humanista: 'qué significa para ti', 'cómo te hace sentir', en lugar de preguntas cerradas y factuales.",
+     "Cuando el paciente dijo 'no, nada, déjelo así', el estudiante debió invitar con calidez a continuar en lugar de cerrar el espacio emocional.",
+     "Establecer desde el inicio un encuadre terapéutico claro que valide la autonomía del adolescente y diferencie el rol del psicólogo del del rector."
+    ]
+   }
+  },
+  {
+   "idx": 56,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica: del motivo de consulta al duelo y la historia vital."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Uso excelente de reflejo empático, preguntas abiertas y validación humanista."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "La paciente reveló duelo, culpa y soledad crónica en primera sesión."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Reconoce roles familiares y dinámicas latinas, pero sin exploración explícita."
+    },
+    "fortalezas": [
+     "Validación emocional consistente: nunca minimizó el dolor ni la culpa de la paciente.",
+     "Pregunta pivotal '¿cómo se siente usted consigo misma?' abrió la narrativa central del duelo.",
+     "Sostuvo presencia terapéutica sin interrumpir silencios, permitiendo procesamiento genuino."
+    ],
+    "areas_mejora": [
+     "Evaluar riesgo: la ideación pasiva ('¿para qué me levanto?') requería exploración directa de seguridad.",
+     "Explorar el contexto cultural explícitamente: el rol de 'la que sostiene todo' en familias latinas merece nombrarse.",
+     "Incorporar cierre estructurado: la sesión terminó sin contención ni acuerdo sobre próximos pasos."
+    ]
+   }
+  },
+  {
+   "idx": 57,
+   "orient": "Humanista",
+   "nivel": "avanzado",
+   "caso": "Santiago Muñoz",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica clara: desde resistencia inicial hasta temas familiares profundos."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso humanista: validación, reflejo empático y preguntas centradas en la experiencia."
+    },
+    "apertura_emocional": {
+     "puntuacion": 9,
+     "comentario": "Logró romper la guardia del paciente con genuina curiosidad y validación del juego."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró dinámica familiar y adolescencia, aunque faltó explorar contexto escolar específico."
+    },
+    "fortalezas": [
+     "Validó la resistencia inicial sin confrontarla, generando alianza terapéutica desde el primer intercambio.",
+     "Reencuadró los videojuegos como recurso psicológico legítimo, rompiendo el discurso adulto dominante que Santiago esperaba.",
+     "Utilizó el lenguaje propio del paciente ('la cago', 'maluco') para construir cercanía auténtica y reducir distancia."
+    ],
+    "areas_mejora": [
+     "Al explorar a Jorge, convendría ir más despacio y preguntar antes cómo se siente, no solo quién es él.",
+     "Faltó hacer un encuadre mínimo inicial sobre confidencialidad y propósito de la sesión dado el motivo de consulta involuntario.",
+     "Sería útil explorar qué significa 'todos tienen su cuento armado' en el colegio antes de pasar al tema familiar."
+    ]
+   }
+  },
+  {
+   "idx": 58,
+   "orient": "Humanista",
+   "nivel": "avanzado",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 9,
+     "comentario": "Progresión lógica y coherente, desde presentación hasta núcleo emocional profundo."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso humanista: reflejo empático, escucha activa y preguntas de significado personal."
+    },
+    "apertura_emocional": {
+     "puntuacion": 10,
+     "comentario": "Logró espacio de seguridad excepcional; la paciente lloró y se abrió sin inhibición."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró roles familiares y duelo, aunque no exploró dimensión sociocultural más amplia."
+    },
+    "fortalezas": [
+     "Uso magistral del reflejo empático, reformulando narrativas negativas como 'me estoy cayendo' hacia significados más compasivos.",
+     "Pregunta sobre necesidades con Andrés generó insight genuino; la paciente verbalizó por primera vez lo que necesitaba emocionalmente.",
+     "Mantuvo presencia auténtica y cálida sin imponer interpretaciones, respetando el ritmo y silencios de la paciente."
+    ],
+    "areas_mejora": [
+     "Explorar la frase 'ya no puedo más' con mayor especificidad para evaluar riesgo de ideación suicida activa.",
+     "Incorporar preguntas sobre red de apoyo social, contexto económico y acceso a recursos comunitarios disponibles.",
+     "Al final de sesión, establecer encuadre terapéutico claro: frecuencia, objetivos y límites para contener la alta intensidad emocional."
+    ]
+   }
+  },
+  {
+   "idx": 59,
+   "orient": "Humanista",
+   "nivel": "intermedio",
+   "caso": "Lucía Herrera",
+   "turnos": 5,
+   "eval": {
+    "estructura_preguntas": {
+     "puntuacion": 8,
+     "comentario": "Progresión lógica y fluida, de lo inmediato hacia capas emocionales más profundas."
+    },
+    "tecnica_entrevista": {
+     "puntuacion": 9,
+     "comentario": "Excelente uso humanista: reflejo empático, validación, escucha activa y presencia genuina."
+    },
+    "apertura_emocional": {
+     "puntuacion": 10,
+     "comentario": "Logró un espacio seguro excepcional; la paciente expresó dolor profundo y se sintió vista."
+    },
+    "adecuacion_contexto": {
+     "puntuacion": 7,
+     "comentario": "Consideró dinámicas familiares y rol de cuidadora, pero no exploró contexto sociocultural explícitamente."
+    },
+    "fortalezas": [
+     "Validación emocional constante y auténtica: nunca minimizó el dolor ni apresuró el proceso.",
+     "Reflejo preciso de las palabras de la paciente ('dolor con fecha de vencimiento'), generando profunda conexión.",
+     "Mantuvo presencia empática sin imponer interpretaciones, respetando el ritmo narrativo de Lucía."
+    ],
+    "areas_mejora": [
+     "No exploró la culpa ('si hubiera buscado otro médico') que emergió al final, área clínica crítica pendiente.",
+     "Faltó evaluar ideación suicida o riesgo, especialmente ante frases como 'ya no puedo más' y aislamiento prolongado.",
+     "Podría explorar el contexto socioeconómico y redes de apoyo concretas para una comprensión más integral."
+    ]
+   }
+  }
+ ],
+ "errors": []
+}

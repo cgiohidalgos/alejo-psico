@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const steps = [
-  { num: 1, label: "Registro", path: "/" },
+  { num: 1, label: "Inicio", path: "/" },
   { num: 2, label: "Casos", path: "/casos" },
   { num: 3, label: "Entrevista", path: "/entrevista" },
   { num: 4, label: "Historia", path: "/historia" },
@@ -21,7 +21,7 @@ export function MobileHeader() {
       <div className="flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-2">
           <Brain className="w-5 h-5 text-sidebar-primary" />
-          <span className="font-serif font-bold">SSPEC</span>
+          <span className="font-serif font-bold">Psiké</span>
         </div>
         <button onClick={() => setOpen(!open)} className="p-1">
           <Menu className="w-5 h-5" />

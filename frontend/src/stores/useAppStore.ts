@@ -128,6 +128,6 @@ export const useAppStore = create<AppState>()(
 
       setPaso: (p) => set({ paso: p }),
     }),
-    { name: "sspec-storage" }
+    { name: "psike-storage" }
   )
 );

@@ -19,3 +19,10 @@ frontend/.env
 
 # temp
 *.log
+
+# Documentos legales del articulo (datos personales)
+articulo/documentos/
+
+# Python bytecode
+__pycache__/
+*.pyc
