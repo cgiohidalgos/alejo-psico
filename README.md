@@ -1,4 +1,4 @@
-# CliniA — Guía de despliegue
+# Psiké — Guía de despliegue
 
 Simulador de entrevistas clínicas para formación en psicología. Los estudiantes practican entrevistas con pacientes simulados por IA y reciben una evaluación automática; los profesores hacen seguimiento desde un panel docente.
 
